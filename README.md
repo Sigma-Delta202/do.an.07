@@ -1,4 +1,4 @@
-# do.an.07
+;# do.an.07
 while True:
     thoigian = int(input("Nhập thời gian làm việc: "))
     if(thoigian in range(8, 18)):        
@@ -72,10 +72,10 @@ while True:
                 sodu = int(k)
                 break
         print ("-----------------*----------------")
-        print(name)
+        print("Họ tên:", name)
         print(a)
-        print(v)
-        print(k)
+        print("Số điện thoại: ", v)
+        print("Số dư tài khoản là: ", k, "đồng)
         print ("-----------------*----------------")
         print ("-----------------&----------------")
         #-------------------------------------------------------------------------------
@@ -158,9 +158,11 @@ while True:
         if sodu > math:
             print ("Bạn có đủ tiền để mua cổ phiếu")
             print ("-------------------------------")
+            break
         else:
                 print("Bạn không có đủ tiền. Hãy thử lại.")
                 print ("----------------------------------")
+                break
 
     else: 
         print("Chỉ có thế làm việc từ: 8h - 17h")
